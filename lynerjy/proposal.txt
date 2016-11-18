@@ -1,0 +1,20 @@
+Project Proposal
+
+0. Objectives
+
+For this project, I will be using publically available patent data to develop a map of the different IP landscapes in different domains. 
+
+I have expanded the scope from my original proposal, to include an agent based model of innovation diffusion. Organizational theory is interested in the question of what type of network structures enable a balance of exploitation (building on ideas) versus exploration (looking for other ideas) such that groups exploit the best ideas possible.
+
+I intend to create a simulation of this process that is informed by the real world "problem landscape", which afford different kinds of exploration and exploitation balances. The IP modeling that was originally imagined will serve to build this problem landscape, where I will look at the degree to which IP in different fields build on one another.
+
+1. Datasets
+The IP dataset which will be leveraged are publically available patent data. The data being sought for each patent are a) its citations, b) its classification, c) its assignee. The following datasets have been found to include this data, and will have to be combined and cleaned in order to distill the necessary information
+- NBER US Patent citations data file (http://www.nber.org/patents/)
+- USPTO Patent Examination Research Dataset (https://www.uspto.gov/learning-and-resources/electronic-data-products/patent-examination-research-dataset-public-pair)
+
+2. Agent-based model
+An agent based model will be developed to show how individuals traverse a problem landscape (that will be defined by the dataset). There are 3 elements that make up such a model: a) an NK model, which is an evolution model which has been adapted to model the interdependence between parts of a problem and the varying value of its solution, b) a network model, which represents how, say, individuals in an organization are connected to one another, or how firms are connected in a field, and c) a search algorithm defining how these individual nodes decide to interact with one another and with the problem space.
+
+3. Visualization
+The simulation of this network will be shown using d3.js. My original proposal stated that this visualization will be in 3d. However a survey of data visualization best practices has shown that 3d information does not actually translate well to users, and that the third dimension should be captured in some other feature like colour or size.  

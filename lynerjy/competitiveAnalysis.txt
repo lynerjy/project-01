@@ -1,0 +1,13 @@
+The project goal is to create a web-based Agent Based Model (ABM) simulator, that can simulate different simulations under different patent landscapes. This project is primarily a personal one, as I'm doing research in this super-niche area, so there really isn't any commercial value evisioned, and no real competitive advantage.
+
+All the same, there are several relevant platforms available that can be used for inspiration.
+
+1) Insight Maker (https://insightmaker.com): This is a web-based modeler, where you can build many different kinds of simulations (including ABMs) and then share them with others by sharing a URL. You can make very complex models and include many customized variables, mechanisms and annotations. I like the idea of sharing a URL, and will add this to my project if doesn't turn out to be too difficult.
+
+2) Innography PatentScout (https://www.innography.com): Their competitive advantage is the amount of patent data they have categorized, especially with regard to the type of field the patent is in, so as to aid in perior art searches. It has a very nice visualization that breaks patents into sub categories, and I'd like to incorporate this so that users can look at data on different scales. An essential thing to recognize is that "fields" in patenting are very amorphous, and I should account for that when categorizing my patent visualizations. 
+
+One thing I would like to incorporate, but which might be difficult to do in this project, is their text analysis of the whole patent, as a way of understanding what it's really about. However this requires a great deal of data cleaning (which they use some machine learning to do)  which is beyond me at this point.
+
+3) USPTO PatentsView (http://www.patentsview.org/web/): This draws data directly from USPTO, and includes only metadata of patent owner, location, grant date and location. It only serves to make a geographic visualization of patents, but that might be an interesting feature to add to my model -- a geographic overlay for the network. Its UI is not entirely friendly though -- it has different colours and clearly clickable items, but there is no key to tell what these do.
+
+4) Article One Partners (http://articleonepartners.com/): This allows the crowd to come and add patents that they think might be relevant to an existing patent, adding to the overall classification of the patent network. This might be interesting to include, but it's a very different matter to make a good crowdsourcing platform.

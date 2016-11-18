@@ -1,0 +1,9 @@
+Technoloy demonstration
+
+There are two key technologies required to get this going: a) an agent-based simulator, and b) d3.js
+
+a) Agent-based simulator
+The harder part for me is getting a simulation going as I've not built one before. The version I have built for this deliverable (which is in the code artifact) is currently a python version of the simulation. This because the base code that I found for the NK model's algorithms (around which I am basing my simulation) was only available in python, so I thought I'd first test the logic of my code over there. In the next deliverables, I'll translate that into javascript.
+
+b) dagre-d3
+As for d3.js, I experimented with a library of it called dagre-d3, which was developed to make network modeling easier. I doubt I will use it for the final though, as it seems I can make prettier force-directed and collapsible things with the original d3 library.
